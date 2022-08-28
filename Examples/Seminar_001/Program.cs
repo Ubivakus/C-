@@ -69,5 +69,39 @@ if (x == b)
 }
 */
 
+/*
+var x = Convert.ToInt32(Console.ReadLine());
+var y = Convert.ToInt32(Console.ReadLine());
+System.Console.WriteLine(ChetvertPloskosti(x, y));
 
+int ChetvertPloskosti(int x, int y)
+{
+    if(x > 0 && y > 0)
+    return 1;
+
+    if(x < 0 && y > 0)
+    return 2;
+
+    if(x < 0 && y < 0)
+    return 3;
+
+    if(x > 0 && y > 0)
+    return 4;
+
+    return 0;
+}
+*/
+
+/*
+int a = 3;
+int b = 2;
+
+System.Console.WriteLine(summ(a, b));
+
+int summ(int a, int b)
+{
+    int answer = a + b;
+    return answer;
+}
+*/
 
